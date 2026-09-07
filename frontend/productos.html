@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Sistema de Inventario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Sistema de Inventario</h1>
+
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="agregar_producto.html">Agregar producto</a>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+
+        <section class="seccion-pagina">
+
+            <h2>Productos disponibles</h2>
+
+            <p class="descripcion">
+                Consulta los productos registrados actualmente en el inventario.
+            </p>
+
+            <div class="tabla-contenedor">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Stock</th>
+                            <th>Categoría</th>
+                        </tr>
+                    </thead>
+
+                   <tbody id="lista-productos">
+                        <tr>
+                            <td colspan="3">Cargando productos...</td>
+                        </tr>
+                   </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="acciones">
+                <a href="agregar_producto.html" class="boton">
+                    Agregar nuevo producto
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sistema de Inventario - Proyecto Full Stack</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
