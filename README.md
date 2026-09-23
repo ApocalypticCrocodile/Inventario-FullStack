@@ -12,10 +12,10 @@ El proyecto busca facilitar la organización y gestión de insumos mediante un s
 
 El Backend fue desarrollado utilizando:
 
-- Python
-- Django
-- Django REST Framework
-- SQLite
+* Python
+* Django
+* Django REST Framework
+* SQLite
 
 Incluye los modelos, la base de datos y la API REST desarrollados durante la asignatura anterior.
 
@@ -23,17 +23,18 @@ Incluye los modelos, la base de datos y la API REST desarrollados durante la asi
 
 El prototipo de interfaz fue desarrollado utilizando:
 
-- HTML
-- CSS
-- JavaScript
+* HTML
+* CSS
+* JavaScript
 
 Incluye las siguientes pantallas:
 
-- Inicio
-- Productos
-- Categorías
-- Agregar producto
+* Inicio
+* Productos
+* Categorías
+* Agregar producto
 
 ## Estado actual
 
-Actualmente, el proyecto cuenta con un Backend desarrollado previamente y un prototipo funcional de interfaz Front-End. La integración directa entre ambas partes corresponde a una posible etapa posterior del desarrollo.
+Actualmente, el proyecto se encuentra finalizado y listo para entregar, con integración entre Front End y Back End funcional, funciones operativas, y mejoras implementadas.
+
