@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agregar producto - Sistema de Inventario</title>
+    <title>Agregar / Editar producto - Sistema de Inventario</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -24,11 +24,11 @@
 
         <section class="seccion-pagina">
 
-            <h2>Agregar nuevo producto</h2>
+            <h2 id="titulo-formulario">Agregar nuevo producto</h2>
 
-            <p class="descripcion">
-                Ingresa la información del nuevo producto que deseas incorporar
-                al inventario.
+            <p class="descripcion" id="descripcion-formulario">
+               Ingresa la información del nuevo producto que deseas incorporar
+               al inventario.
             </p>
 
             <form id="formulario-producto" class="formulario">
@@ -78,7 +78,7 @@
                     </select>
                 </div>
 
-                <button type="submit" class="boton">
+                <button type="submit" class="boton" id="boton-formulario">
                     Guardar producto
                 </button>
 
